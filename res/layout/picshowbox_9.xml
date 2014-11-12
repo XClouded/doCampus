@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.doschool.aa.widget.ProgressImageView
+        android:id="@+id/pic1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="4dp"
+        android:paddingRight="4dp"
+        android:src="@color/black" />
+
+    <com.doschool.aa.widget.ProgressImageView
+        android:id="@+id/pic2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/pic1"
+        android:paddingBottom="4dp"
+        android:paddingRight="4dp"
+        android:src="@color/black" />
+
+    
+    <com.doschool.aa.widget.ProgressImageView
+        android:id="@+id/pic3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="4dp"
+        android:layout_toRightOf="@+id/pic2"
+        android:paddingRight="4dp"
+        android:src="@color/black" />
+    
+    <com.doschool.aa.widget.ProgressImageView
+        android:id="@+id/pic4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/pic1"
+        android:paddingRight="4dp"
+        android:src="@color/black" />
+
+    <com.doschool.aa.widget.ProgressImageView
+        android:id="@+id/pic5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/pic1"
+        android:layout_toRightOf="@+id/pic4"
+        android:paddingRight="4dp"
+        android:src="@color/black" />
+
+    <com.doschool.aa.widget.ProgressImageView
+        android:id="@+id/pic6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/pic1"
+        android:layout_toRightOf="@+id/pic5"
+        android:paddingRight="4dp"
+        android:src="@color/black" />
+<com.doschool.aa.widget.ProgressImageView
+        android:id="@+id/pic7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/pic4"
+        android:paddingRight="4dp"
+        android:src="@color/black" />
+
+<com.doschool.aa.widget.ProgressImageView
+        android:id="@+id/pic8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/pic4"
+        android:layout_toRightOf="@+id/pic7"
+        android:paddingRight="4dp"
+        android:src="@color/black" />
+<com.doschool.aa.widget.ProgressImageView
+        android:id="@+id/pic9"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/pic4"
+        android:layout_toRightOf="@+id/pic8"
+        android:paddingRight="4dp"
+        android:src="@color/black" />
+</RelativeLayout>

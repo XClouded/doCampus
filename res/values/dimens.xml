@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+<dimen name="viewXPageTitleHeight">48dp</dimen>
+    <dimen name="viewXPageTitleBtnWidth">48dp</dimen>
+    <dimen name="itemMenuNameHeight">64dp</dimen>
+    <dimen name="itemMenuNewsHeight">64dp</dimen>
+    <dimen name="subitemMenuNameHeight">48dp</dimen>
+    <dimen name="subitemMenuNewsHeight">32dp</dimen>
+    <dimen name="activityNormalLoginFuncIdEdtxtWidth">240dp</dimen>
+    <dimen name="activityNormalLoginFuncIdEdtxtHeight">48dp</dimen>
+    <dimen name="activityNormalLoginFunIdEdtxtMarginTop">120dp</dimen>
+    <dimen name="activityNormalLoginUsrPasswdEdtxtWidth">240dp</dimen>
+    <dimen name="activityNormalLoginUsrPasswdEdtxtHeight">40dp</dimen>
+    <dimen name="activityNormalLoginUsrPasswdEdtxtMarginTop">5dp</dimen>
+    <dimen name="activityNormalLoginOperationLayoutMarginTop">20dp</dimen>
+    <dimen name="activityNormalLoginOperationLayoutHeight">48dp</dimen>
+    <dimen name="activityAutoLoginLayoutPaddingBottom">50dp</dimen>
+    <dimen name="activityRegisterHeadImgSize">96dp</dimen>
+    <dimen name="activityRegisterHeadImgMargin">10dp</dimen>
+    <dimen name="activityRegisterFunIdEdtxtWidth">240dp</dimen>
+    <dimen name="activityRegisterNickEdtxtMarginTop">30dp</dimen>
+    <dimen name="activityRegisterBtnHeight">50dp</dimen>
+    <dimen name="pageShowCardHeadXimgSize">90dp</dimen>
+    <dimen name="pageEditCardHeadXimgSize">90dp</dimen>
+    <dimen name="itemUserHeadXimgSize">48dp</dimen>
+    <dimen name="itemCardHeadXimgSize">64dp</dimen>
+    <dimen name="itemApplyHeadXimgSize">64dp</dimen>
+    <dimen name="viewPersonHeight">216dp</dimen>
+    <dimen name="viewPersonLayoutHeight">144dp</dimen>
+    <dimen name="viewPersonOperateLayoutHeight">72dp</dimen>
+    <dimen name="viewPersonCardBtnMarginLeft">160dp</dimen>
+    <dimen name="viewPersonCardBtnMarginRight">50dp</dimen>
+    <dimen name="viewPersonCardBtnWidth">100dp</dimen>
+    <dimen name="viewPersonHeadXimgSize">72dp</dimen>
+    <dimen name="viewPersonHeadXimgMarginLeft">40dp</dimen>
+    <dimen name="viewPersonHeadXimgMarginTop">100dp</dimen>
+    <dimen name="viewNormalMicroblogUserHeadXImgSize">64dp</dimen>
+    <dimen name="viewNormalMicroblogCommentBtnPadding">2dp</dimen>
+    <dimen name="viewNormalMicroblogCommentBtnMargin">2dp</dimen>
+    <dimen name="viewNormalMicroblogTransmitBtnMargin">2dp</dimen>
+    <dimen name="viewNormalMicroblogTransmitBtnPadding">2dp</dimen>
+    <dimen name="viewAtUserHeadXImgSize">64dp</dimen>
+    <dimen name="itemCommentUserHeadXImgSize">64dp</dimen>
+    <dimen name="viewHeadMenuHeight">160dp</dimen>
+    <dimen name="viewHeadMenuHeadXImgSize">64dp</dimen>
+    <dimen name="viewHeadMenuMargin">7dp</dimen>
+    <dimen name="viewHeadMenuHeadXImgSize2">68dp</dimen>
+    
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="button_margin">3dp</dimen>
+        <!-- ViewPager的间隔 -->
+    <dimen name="pciture_view_pager_margin">80dp</dimen>
+    <!-- 工具栏上按钮的间距 -->
+    <dimen name="picture_action_bar_button_margin">0dp</dimen>
+    <dimen name="picture_action_bar_height">48dp</dimen>
+    <!-- 重新加载文字字体大小 -->
+    <dimen name="picture_reload_text_size">16dp</dimen>
+    <!-- 图集标题字体大小 -->
+    <dimen name="picture_album_title_text_size">12dp</dimen>
+    <!-- 图集中图片数量字体大小 -->
+    <dimen name="picture_count_text_size">12dp</dimen>
+    <!-- 图集View的间隔 -->
+    <dimen name="picture_album_view_margin">8dp</dimen>
+    <dimen name="picture_album_view_margin_bottom">9dp</dimen>
+    <dimen name="picture_album_text_margin">6dp</dimen>
+    <dimen name="picture_album_column_margin">5dp</dimen>
+    <dimen name="picture_album_top_margin">10dp</dimen>
+    <dimen name="picture_album_item_title_height">30dp</dimen>
+    <!-- 工具栏上显示1/6文字的字体大小 -->
+    <dimen name="picture_action_bar_page_index_text_size">18dp</dimen>
+    <!-- 用户引导边距 -->
+    <dimen name="picture_user_guide_margin">8dp</dimen>
+    <!-- 正在加载文本上边距 -->
+    <dimen name="picture_loading_text_top_margin">12dp</dimen>
+    <!-- 下拉刷新字体 -->
+    <dimen name="picture_pull_to_refresh_loading_text_size">14dp</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_text_size">10dp</dimen>
+    <dimen name="picture_pull_to_refresh_last_update_time_top_margin">6dp</dimen>
+    <dimen name="picture_pull_to_refresh_footer_height">40dp</dimen>
+</resources>

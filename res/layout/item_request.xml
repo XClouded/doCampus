@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:linc="http://schemas.android.com/apk/res/com.doschool"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlBlogHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_blog_card"
+        android:orientation="vertical"
+        android:paddingTop="4dp" >
+
+        <ImageView
+            android:id="@+id/ivHead"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/xsearch_loading" />
+
+        <TextView
+            android:id="@+id/tvNick"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignTop="@+id/ivHead"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/ivHead"
+            android:gravity="bottom"
+            android:text="世界上本没有路"
+            android:textColor="#636363"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignLeft="@+id/tvNick"
+            android:layout_below="@+id/tvNick"
+            android:gravity="center_vertical"
+            android:text="今天 22:30  浏览量26次"
+            android:textColor="#bdbdbd"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/ivIdentify"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:visibility="invisible"
+            android:layout_alignBottom="@+id/ivHead"
+            android:layout_alignRight="@+id/ivHead"
+            android:src="@drawable/icon_blog_identify" />
+
+        <TextView
+            android:id="@+id/tvReason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ivHead"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="爱音乐的人应该感谢这个时代，媒让我"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_below="@+id/tvReason" />
+
+        <LinearLayout
+            android:id="@+id/llOperate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvReason"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <Button
+                android:id="@+id/btNo"
+                android:layout_width="134dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/btn_style_no" />
+
+            <Button
+                android:id="@+id/btYes"
+                android:layout_width="134dp"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_style_yes" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvReason"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

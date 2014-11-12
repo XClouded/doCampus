@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:linc="http://schemas.android.com/apk/res/com.doschool"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    
+    
+    <RelativeLayout
+        android:id="@+id/leftLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/script_orange"
+        android:orientation="vertical"
+        android:paddingTop="4dp" >
+
+        <ImageView
+            android:id="@+id/leftHead"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/xsearch_loading" />
+
+        <TextView
+            android:id="@+id/leftNick"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignTop="@+id/leftHead"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/leftHead"
+            android:gravity="bottom"
+            android:text="世界上本没有路"
+            android:textColor="#636363"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/leftTime"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignLeft="@+id/leftNick"
+            android:layout_below="@+id/leftNick"
+            android:gravity="center_vertical"
+            android:text="今天 22:30"
+            android:textColor="#bdbdbd"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/rcv_ivIdentify"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:visibility="invisible"
+            android:layout_alignBottom="@+id/leftHead"
+            android:layout_alignRight="@+id/leftHead"
+            android:src="@drawable/icon_blog_identify" />
+
+        <TextView
+            android:id="@+id/leftContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/leftHead"
+            android:layout_marginTop="8dp"
+            android:maxWidth="300dp"
+            android:text="爱音乐的人应该感谢这个时代，媒让我"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    
+        <LinearLayout
+        android:id="@+id/rightLayout"
+        android:gravity="right"
+        android:layout_below="@+id/leftLayout"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/script_grey"
+        android:orientation="vertical"
+        android:paddingTop="4dp" >
+        
+            
+            <TextView
+            android:id="@+id/rightContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:maxWidth="250dp"
+            android:text="爱音乐的人个这个时代媒我"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+            
+            
+            <TextView
+            android:id="@+id/rightTime"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_below="@+id/rightContent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:text="今天 22:30 递给"
+            android:textColor="#bdbdbd"
+            android:textSize="10sp" />
+            
+            
+            <TextView
+            android:id="@+id/rightNick"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_below="@+id/rightTime"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:gravity="center_vertical"
+            android:text="世界上本没有路"
+            android:textColor="#636363"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

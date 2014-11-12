@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/llWrongL"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#ffcccc"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvWrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:text="网络错误" />
+
+        <Button
+            android:id="@+id/btCancel"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消" />
+
+        <Button
+            android:id="@+id/btRetry"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="重试" />
+    </LinearLayout>
+
+    
+
+    <RelativeLayout
+            android:id="@+id/llProgress"
+        android:layout_width="match_parent"
+        android:layout_height="4dp" >
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:max="1000"
+            android:progress="500"
+            android:progressDrawable="@drawable/diy_progressbar" />
+
+        <ImageView
+            android:id="@+id/ivMoving"
+            android:layout_width="6dp"
+            android:layout_height="4dp"
+            android:src="@color/orange" />
+    </RelativeLayout>
+
+    
+    <LinearLayout
+        android:id="@+id/llSending"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#ccccff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvSending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="正在上传: XXXXXXXXXXXXX" />
+    </LinearLayout>
+    
+    
+</merge>

@@ -1,0 +1,70 @@
+<resources>
+
+    <color name="redLight">#fac8c8</color>
+    <color name="redNormal">#dcaaaa</color>
+    <color name="redDark">#be8c8c</color>
+    <color name="blueLight">#c8c8fa</color>
+    <color name="blueNormal">#aaaadc</color>
+    <color name="blueDark">#8c8cbe</color>
+    
+    
+    
+	<color name="slidemenu_bg">#323232</color>
+	
+    <color name="transparent">#00000000</color>
+	<color name="black">#000000</color>
+	<color name="dark_grey">#4d4d4d</color>
+	<color name="normal_grey">#9a9a9a</color>
+	<color name="light_grey">#cccccc</color>
+	
+	<color name="light_light_grey">#e5e5e5</color>
+	
+    <color name="dark_blue">#005092</color>
+    
+       <color name="normal_red">#ff3434</color>
+        <color name="at_color">#116198</color>
+        
+        
+      
+      <color name="grey_major">#bdbdbd</color>  
+      <color name="grey_minor">#7a7a7a</color>  
+      <color name="orange_light">#ffbc70</color>  
+      <color name="huilanrange_light">#b0bec5</color>  
+      <color name="grey_background">#f2f2f2</color>  
+      
+      <color name="topbar_bg">#607d8b</color>  
+        
+      <color name="white">#ffffff</color>   
+      <color name="zd_gery">#7a7a7a</color>  
+      <color name="fzd_grey">#bdbdbd</color>  
+      <color name="bg_grey">#f2f2f2</color>  
+      
+      <color name="light_green">#99cc00</color>  
+      
+      <color name="greyblue">#607d8b</color>  
+      <color name="light_greyblue3">#d3d8da</color>  
+      <color name="light_greyblue2">#96b8c6</color>  
+      <color name="bg_greyblue">#e2e8ea</color>  
+      <color name="dark_orange">#e05c00</color>  
+      <color name="light_orange">#ffbc70</color>  
+      <color name="pink">#ff6565</color>  
+      <color name="pink2">#db4c4c</color>  
+
+    <color name="dark_blue">#0d4460</color>
+     <color name="background_tab_pressed">#6633B5E5</color>
+       
+     
+     
+      <color name="zd_black">#212121</color>  
+      <color name="fzd_black">#636363</color> 
+      <color name="orange">#f7c13d</color> 
+      <color name="red">#ff7e5b</color> 
+      <color name="light_greyblue">#b0bfc6</color> 
+      
+      <color name="blue">#73c7ea</color> 
+      <color name="dark_blue">#30a3ce</color> 
+      <color name="light_blue_jia">#cce9ff</color> 
+      <color name="fzd_grey">#bdbdbd</color> 
+      <color name="bg_yellow">#f9f8f4</color> 
+     
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:orientation="vertical"
+    android:background="@drawable/btn_style_slidingbutton" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="8dp"
+        android:layout_height="64dp"
+        android:src="@color/light_orange" />
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/btn_addpic" />
+
+    <ImageView
+        android:id="@+id/ivRedPot"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_alignTop="@+id/ivIcon"
+        android:layout_toRightOf="@+id/ivIcon"
+        android:src="@drawable/at_checkbox" />
+
+</RelativeLayout>

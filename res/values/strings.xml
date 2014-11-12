@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">口袋小安</string>
+    <string name="image">image</string>
+    <string name="activityAutoLoginTxt">正在登录</string>
+    <string name="activityNormalLoginFuncIdEdtxt">学号</string>
+    <string name="activityNormalLoginUsrPasswdEdtxt">密码</string>
+    <string name="activityNormalLoginLoginBtn">登录</string>
+    <string name="activityNormalLoginRegisterBtn">注册</string>
+    <string name="activityRegisterFunIdEdtxt">输入学号</string>
+    <string name="activityRegisterFunPasswdEdtxt">输入教务系统密码</string>
+    <string name="activityRegisterNickEdtxt">输入昵称</string>
+    <string name="activityRegisterUsrPasswdEdtxt">输入密码</string>
+    <string name="activityRegisterUsrPasswdRecheckEdtxt">确认密码</string>
+    <string name="activityRegisterRegisterBtn">注册</string>
+    <string name="activityRegisterBackBtn">返回</string>
+    <string name="pageShowCardNickLabelTxt">昵称</string>
+    <string name="pageShowCardNameLabelTxt">姓名</string>
+    <string name="pageShowCardPhoneLabelTxt">手机</string>
+    <string name="pageShowCardQqLabelTxt">QQ</string>
+    <string name="pageShowCardMailLabelTxt">邮箱</string>
+    <string name="pageShowCardIntroduceLabelTxt">签名</string>
+    <string name="pageEditCardNickLabelTxt">昵称</string>
+    <string name="pageEditCardNameLabelTxt">姓名</string>
+    <string name="pageEditCardPhoneLabelTxt">手机</string>
+    <string name="pageEditCardQqLabelTxt">QQ</string>
+    <string name="pageEditCardMailLabelTxt">邮箱</string>
+    <string name="pageEditCardIntroduceLabelTxt">签名</string>
+    <string name="pageEditCardNickEdtxt">昵称</string>
+    <string name="pageEditCardPhoneEdtxt">手机号码</string>
+    <string name="pageEditCardQqEdtxt">QQ号</string>
+    <string name="pageEditCardMailEdtxt">邮箱地址</string>
+    <string name="pageEditCardIntroduceEdtxt">个性签名</string>
+    <string name="itemApplyOperateNegativeBtn">拒绝</string>
+    <string name="itemApplyOperatePositiveBtn">接受</string>
+    <string name="pageWriteContentEdtxt">微博内容</string>
+    <string name="pageCommentContentEdtxt">评论内容</string>
+    <string name="pageWriteTipTxt">添加图片</string>
+    <string name="itemCommentCommentBtn">评论</string>
+    <string name="itemSearchUserCardBtn">发送名片</string>
+    <string name="itemSearchUserFriendBtn">加为好友</string>
+    <string name="versionName">公测3.5版 </string>
+
+</resources>

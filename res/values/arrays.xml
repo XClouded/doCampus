@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="BlogWriteHintList">
+        <item>身在何方，心思何人</item>
+        <item>眼见何事，心思何物</item>
+        <item>相信美好的事情即将发生</item>
+        <item>人生,总会有不期而遇的温暖 </item>
+        <item>人生,总会有生生不息的希望 </item>
+        <item>好咖啡要和朋友一起分享</item>
+    </string-array>
+
+        <string-array name="BlogContentWhenNopicList">
+        <item>我只想静静地分享下照片。</item>
+        <item>我只是想静静地分享下照片。</item>
+        <item>我只想安静地分享下照片。</item>
+        <item>啥也不说了，直接看图片吧。</item>
+        <item>不说废话，直接上图。</item>
+        <item>看到这几张照片，我也是醉了。 </item>
+        <item>悄悄地给大家看几张图。</item>
+        <item>每天分享点图片，感觉自己萌萌哒。</item>
+    </string-array>
+    
+                <string-array name="TransContentWhenNoWordsList">
+        <item>帮忙转。</item>
+        <item>帮转。</item>
+        <item>不要谢我，我只想做一个安静的搬运工。</item>
+        <item>我不生产内容，我只是微博的搬运工。</item>
+        <item>安安静静地帮你转发一下。</item>
+        <item>转发一下，又不会怀孕。 </item>
+    </string-array>
+    
+        
+</resources>

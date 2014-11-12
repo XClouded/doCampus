@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    
+        <ImageView
+        android:id="@+id/itemMenuName"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/itemMenuNameHeight"
+        android:layout_weight="4"
+        android:paddingBottom="0dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="dp"
+        android:paddingRight="50dp"
+        android:paddingTop="15dp" />
+
+    <TextView
+        android:id="@+id/itemMenuNews"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/itemMenuNewsHeight"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>

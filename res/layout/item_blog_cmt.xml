@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="8dp" >
+
+    <ImageView
+        android:id="@+id/ivHead"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/emotion_1020" />
+
+    <TextView
+        android:id="@+id/tvSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ivHead"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:maxEms="12"
+        android:textColor="#7a7a7a"
+        android:text="SUB" />
+
+        <TextView
+        android:id="@+id/tvReply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvSub"
+        android:layout_marginLeft="2dp"
+        android:textSize="16sp"
+        android:textColor="#bdbdbd"
+        android:text="回复" />
+        
+        <TextView
+        android:id="@+id/tvObj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvReply"
+        android:layout_marginLeft="2dp"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:maxEms="12"
+        android:textColor="#7a7a7a"
+        android:text="OBJ" />
+
+        <TextView
+            android:id="@+id/tvCmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvSub"
+            android:layout_below="@+id/tvSub"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+            android:text="dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+            android:textColor="#212121"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvFloor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#bdbdbd"
+            android:textSize="8sp"
+            android:text="3楼" />
+
+        <ImageView
+            android:id="@+id/ivDivide"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/tvCmt"
+            android:background="#bdbdbd" />
+        
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:linc="http://schemas.android.com/apk/res/com.doschool"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:padding="0dp" >
+
+        <com.doschool.aa.item.Blog_Item_Header
+            android:id="@+id/blog_item_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.doschool.aa.item.Blog_Item_Header>
+
+        <com.doschool.aa.item.Blog_Item_Content
+            android:id="@+id/blog_item_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            linc:is_trans="false" >
+        </com.doschool.aa.item.Blog_Item_Content>
+
+        <com.doschool.aa.item.Blog_Item_Content
+            android:id="@+id/blog_item_trans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            linc:is_trans="true" >
+        </com.doschool.aa.item.Blog_Item_Content>
+
+        <com.doschool.aa.item.Blog_Item_Bottom
+            android:id="@+id/blog_item_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.doschool.aa.item.Blog_Item_Bottom>
+    </LinearLayout>
+
+</LinearLayout>

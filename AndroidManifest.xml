@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.doschool"
+    android:versionCode="51"
+    android:versionName="公测3.5版" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- for log. -->
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <meta-data
+        android:name="api_key"
+        android:value="SuzbZRlEGULgnh5X1PrOEm8u" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name="com.doschool.app.DoschoolApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/appName"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+
+        <!-- Required.AppKey -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="dobell#testmissan" />
+        <!-- SDK核心功能 -->
+        <service android:name="com.easemob.chat.EMChatService" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="XXX" />
+        <meta-data android:value="wwwdobellme" android:name="UMENG_CHANNEL"/>
+        <service
+    android:name="com.umeng.update.net.DownloadingService"
+    android:process=":DownloadingService" >
+</service>
+<activity 
+    android:name="com.umeng.update.UpdateDialogActivity"
+    android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+</activity>
+
+
+
+        <service android:name="com.doschool.component.updatelater.PostLaterService" >
+        </service>
+
+        <activity android:name="com.umeng.fb.ConversationActivity" />
+        <activity android:name="com.umeng.fb.ContactActivity" />
+       
+        <activity android:name="com.doschool.aa.activity.Act_Color" >
+        </activity>
+        <activity
+            android:name="com.doschool.aa.activity.Act_Trans"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        
+        
+        
+        <activity android:name="com.doschool.aa.activity.Act_Setting" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_PicGallery" >
+        </activity>
+        <activity android:name="com.doschool.component.choosephoto.Act_PicPreview" >
+        </activity>
+        <activity android:name="com.doschool.component.choosephoto.Act_Crop" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_UpdateIntro" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_BlogList" >
+             </activity>
+        <activity android:name="com.doschool.aa.activity.Act_BlogMsg" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_Login" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_EditInfo" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_About" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_Forget" >
+        </activity>
+        <activity android:name="com.doschool.component.choosephoto.Act_PhotoChoose" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_UserCheck" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_Register" >
+        </activity>
+        <activity
+            android:name="com.doschool.aa.activity.Act_Wele"
+            android:label="@string/appName" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.doschool.aa.activity.zAct_Main" >
+        </activity>
+        <activity android:name="ccom.doschool.act.main.Act_Register" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_Write" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_Common_Linear" >
+        </activity>
+        
+        
+        <activity
+            android:name="com.doschool.aa.activity.Act_OneBlog"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_PersonPage" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_ChangePassword" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_Topic" >
+        </activity>
+        <activity android:name="com.doschool.aa.activity.Act_TopicBlogList" >
+        </activity>
+
+        <receiver android:name="com.doschool.message.MessageReceiver" >
+            <intent-filter> <!-- 接收push消息 -->
+                <action android:name="com.doscholl.onClickNotifycation" />
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" /> <!-- 接收bind,unbind,fetch,delete等反馈消息 -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver> <!-- push service -->
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported="true"
+            android:process=":bdservice_v1" /> <!-- push service end -->
+        <!-- 在百度开发者中心查询应用的API Key -->
+        <service
+            android:name="dobell.doschool.xtools.XService"
+            android:exported="true"
+            android:process=":bdservice_v1" />
+
+        <activity android:name="com.doschool.aa.tools.ActivityKCB" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivityLib" >
+        </activity>
+        <activity android:name="z.z.zzActivityAboutus" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivitySSSB" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivityYunDongHui" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivityKCBDetail" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivityLibDetail" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivityLibMyBook" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivityLibSearch" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivityScore" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivityInform" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivityInfomDetail" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivityGongGao" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivityWaiMai" >
+        </activity>
+        <activity android:name="com.doschool.aa.tools.ActivityWaiMaiDetail" />
+        <activity android:name="com.doschool.aa.tools.ActivityGongGaoDetail" />
+        <activity android:name=".aa.tools.ActivityKscx" >
+        </activity>
+        <activity android:name=".aa.tools.ActivityXSJZ" >
+        </activity>
+        <activity android:name=".aa.tools.ActivityXSJZDetail" >
+        </activity>
+        <activity android:name=".aa.tools.ActivityLAF" >
+        </activity>
+        <activity android:name=".aa.tools.ActivityLAFDetail" >
+        </activity>
+        <activity android:name=".aa.tools.ActivityLAFSend" >
+        </activity>
+        <activity android:name=".aa.tools.ActivityMeiTuan" >
+        </activity>
+        <activity
+            android:name=".aa.tools.ActivityTool"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+    </application>
+
+</manifest>

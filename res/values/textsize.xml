@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TextSize_NickName_Normal">18sp</dimen>
+    <dimen name="TextSize_content_normal">16sp</dimen>
+    <dimen name="TextSize_button_normal">14sp</dimen>
+    
+    <dimen name="TextSize_info_notice">18sp</dimen>
+    <dimen name="TextSize_time">14sp</dimen>
+    
+</resources>

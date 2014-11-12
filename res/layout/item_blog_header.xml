@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlBlogHeader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+        android:background="@drawable/card_weibo_top"
+    android:paddingTop="16dp"
+    android:paddingBottom="0dp" >
+
+    <ImageView
+        android:id="@+id/ivHead"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/at_checkbox_checked" />
+
+    <TextView
+        android:id="@+id/tvNick"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignTop="@+id/ivHead"
+        android:layout_marginLeft="9dp"
+        android:layout_toRightOf="@+id/ivHead"
+        android:text="世界上本没有路"
+        android:padding="0dp"
+        android:textColor="@color/fzd_black"
+        android:textSize="16sp" />
+
+    
+    <LinearLayout
+        android:id="@+id/llIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:paddingLeft="2dp"
+        android:layout_alignBottom="@+id/tvNick"
+        android:layout_toRightOf="@+id/tvNick">
+        
+        
+    <ImageView
+        android:id="@+id/ivGender"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="4dp"
+        android:src="@drawable/icon_sex_boy" />
+
+    <ImageView
+        android:id="@+id/ivIdentify"
+        android:layout_width="16dp"
+        android:layout_height="20dp"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="4dp"
+        android:src="@drawable/icon_vip" />
+        
+    </LinearLayout>
+    
+    
+    
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/tvNick"
+        android:layout_below="@+id/tvNick"
+        android:gravity="bottom"
+        android:padding="0dp"
+        android:text="今天 22:30  浏览量26次"
+        android:textColor="@color/orange"
+        android:textSize="11sp" />
+
+    
+
+    <ImageView
+        android:id="@+id/ivHuodong"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ivHead"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>

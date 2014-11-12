@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemAt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_atlist" >
+
+    <ImageView
+        android:id="@+id/ivLine"
+        android:layout_width="8dp"
+        android:layout_height="48dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/ivTopic"
+        android:maxEms="12"
+        android:singleLine="true"
+        android:textColor="@color/zd_gery"
+        android:textSize="16sp"
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_toRightOf="@+id/ivLine"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

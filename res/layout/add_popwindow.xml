@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/postBlogPopView"
+        android:onClick="onPlusClick"
+    android:orientation="horizontal"
+    android:background="#Ecffffff"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btSendText"
+        android:onClick="onPlusClick"
+        android:layout_marginRight="30dp"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:background="@drawable/btn_send_text"/>
+
+    <Button
+        android:id="@+id/btSendGallery"
+        android:onClick="onPlusClick"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:background="@drawable/btn_send_gallery"/>
+
+    <Button
+        android:id="@+id/btSendCamera"
+        android:onClick="onPlusClick"
+        android:layout_marginLeft="30dp"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:background="@drawable/btn_send_camera"/>
+
+</LinearLayout>

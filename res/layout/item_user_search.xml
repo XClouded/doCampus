@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemSearchUser"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/itemSearchUserLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3" >
+
+        <ImageView
+            android:id="@+id/itemSearchUserHeadXimg"
+            android:layout_width="@dimen/itemUserHeadXimgSize"
+            android:layout_height="@dimen/itemUserHeadXimgSize"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/itemSearchUserNickTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/itemSearchUserOperateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/itemSearchUserCardBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/itemSearchUserCardBtn" />
+
+        <Button
+            android:id="@+id/itemSearchUserFriendBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/itemSearchUserFriendBtn" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:linc="http://schemas.android.com/apk/res/com.doschool"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlBlogHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_blog_card"
+        android:orientation="vertical"
+        android:paddingTop="4dp" >
+
+        <ImageView
+            android:id="@+id/ivHead"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/xsearch_loading" />
+
+        <TextView
+            android:id="@+id/tvNick"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignTop="@+id/ivHead"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/ivHead"
+            android:gravity="bottom"
+            android:text="世界上本没有路"
+            android:textColor="#636363"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignLeft="@+id/tvNick"
+            android:layout_below="@+id/tvNick"
+            android:gravity="center_vertical"
+            android:text="今天 22:30  浏览量26次"
+            android:textColor="#bdbdbd"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/ivIdentify"
+            android:visibility="invisible"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_alignBottom="@+id/ivHead"
+            android:layout_alignRight="@+id/ivHead"
+            android:src="@drawable/icon_blog_identify" />
+
+        <ImageView
+            android:id="@+id/ivType"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+        android:layout_marginRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/sicon_msg_at" />
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ivHead"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="爱音乐的人应该感谢这个时代，媒让我"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvBlog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvContent"
+            android:layout_marginTop="8dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="8dp"
+            android:background="@color/light_light_grey"
+            android:singleLine="true"
+            android:text="爱音乐的人应该感谢这个时代，发达的传媒让我们可以聆听到丰富多彩的音乐;但同时爱音乐的人也会痛恨这个时代，那些随时在耳边响起的彩铃，电视里反复播放的选秀音乐，无时不刻的轰击着我们的耳朵。爱生活，爱自由，我们对音乐的选择却很累很不自由。"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_below="@+id/tvBlog" />
+        
+        
+    </RelativeLayout>
+
+</LinearLayout>

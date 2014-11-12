@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/tvTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:background="@drawable/label_topic"
+            android:text="安大最美老师"
+            android:textColor="#ffffff"
+            android:gravity="center_vertical"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_marginLeft="2dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_topic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/llTransFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        
+    <TextView
+        
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="转发自" />
+
+    <TextView
+        android:id="@+id/tvTransNick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dp"
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/textview1"
+        android:textColor="@color/dark_blue"
+        android:text="是我的海" />
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/zd_black"
+        android:text="爱音乐的人应该感谢这个时代，发达的传媒让我们可以聆听到丰富多彩的音乐;但同时爱音乐的人也会痛恨这个时代，那些随时在耳边响起的彩铃，电视里反复播放的选秀音乐，无时不刻的轰击着我们的耳朵。爱生活，爱自由，我们对音乐的选择却很累很不自由。"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/llPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvContent"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+</LinearLayout>

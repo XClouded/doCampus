@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tools_activity_waimai_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        
+        android:maxEms="5"
+        android:gravity="center"
+		android:layout_marginTop="22dp"
+		android:background="@drawable/tools_activitywaimai_notify"
+        android:text="TextView" />
+    
+    <TextView
+        android:id="@+id/tools_activity_waimai_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:layout_marginTop="22dp"
+        android:text="TextView" />
+	
+    <ImageButton 
+        android:id="@+id/tools_activity_waimai_callbt"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/tools_activitywaimai_icon"
+        android:layout_marginTop="22dp"
+        />
+
+    <ScrollView
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+    	>
+        
+        <TextView
+            android:id="@+id/tools_activity_waimai_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="TextView" />
+    </ScrollView>
+
+</LinearLayout>
